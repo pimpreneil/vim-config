@@ -3,6 +3,9 @@ set encoding=utf-8
 set number
 syn on
 
+" Make backspace work like most other apps
+set backspace=2
+
 set expandtab
 set autoindent
 set softtabstop=2
