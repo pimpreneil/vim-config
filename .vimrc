@@ -3,6 +3,9 @@ set encoding=utf-8
 set number
 syn on
 
+" Do not wrap long lines
+set nowrap
+
 " Make backspace work like most other apps
 set backspace=2
 
