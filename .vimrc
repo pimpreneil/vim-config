@@ -68,8 +68,5 @@ set vb t_vb=
 " Using tags file
 set tags+=.ctags
 
-" Code templating
-autocmd BufNewFile * silent! 0r ~/.vim/skel/%:e.tpl
-
 " Syntax coloration of Twig files
 au BufRead,BufNewFile *.twig setfiletype htmldjango
