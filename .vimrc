@@ -1,6 +1,5 @@
 set fileformat=unix
 set encoding=utf-8
-set number
 syn on
 
 " Do not wrap long lines
@@ -11,8 +10,8 @@ set backspace=2
 
 set expandtab
 set autoindent
-set softtabstop=2
-set shiftwidth=2
+set softtabstop=4
+set shiftwidth=4
 
 " Colorizes Twig template as HTML
 au BufRead,BufNewFile *.twig set syntax=htmljinja
