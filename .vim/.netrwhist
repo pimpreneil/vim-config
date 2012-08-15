@@ -1,8 +1,2 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =6
-let g:netrw_dirhist_1='/home/jpetitcolas/Développements/twanx/web/css/tyr'
-let g:netrw_dirhist_2='/home/jpetitcolas/Développements/twanx/src/Twanx/LandingPageBundle'
-let g:netrw_dirhist_3='/home/jpetitcolas/Développements/twanx/src/Twanx/LandingPageBundle/Resources/views'
-let g:netrw_dirhist_4='/home/jpetitcolas/Développements/twanx/src/Twanx/LandingPageBundle/Resources/views/Default'
-let g:netrw_dirhist_5='/home/jpetitcolas/Développements/twanx/app/Resources/views'
-let g:netrw_dirhist_6='/home/jpetitcolas/Développements/minidevis/src/MiniDevis/FrenchGeographyBundle/Resources/config'
+let g:netrw_dirhist_cnt =0
