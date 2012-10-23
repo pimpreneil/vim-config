@@ -1,2 +1,8 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =0
+let g:netrw_dirhist_cnt =6
+let g:netrw_dirhist_1='/home/mstv/dev/www/primo/web/chosen'
+let g:netrw_dirhist_2='/home/mstv/dev/www/primo/src/MyStudioFactory/Primo/AnalyticsBundle'
+let g:netrw_dirhist_3='/home/mstv/dev/www/primo/src/MyStudioFactory/Primo/AnalyticsBundle/Controller'
+let g:netrw_dirhist_4='/home/mstv/dev/www/primo/src/MyStudioFactory/Primo/AnalyticsBundle'
+let g:netrw_dirhist_5='/home/mstv/dev/www/primo/src/MyStudioFactory/Primo/AnalyticsBundle/Model'
+let g:netrw_dirhist_6='/home/mstv/dev/www/primo/web/images'
