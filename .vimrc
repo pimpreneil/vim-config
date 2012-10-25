@@ -2,8 +2,10 @@ set fileformat=unix
 set encoding=utf-8
 syn on
 
-" Do not wrap long lines
-set nowrap
+" Wrap long lines, but not at the middle of a word.
+set wrap
+set formatoptions=l
+set lbr
 
 " Make backspace work like most other apps
 set backspace=2
@@ -12,6 +14,12 @@ set expandtab
 set autoindent
 set softtabstop=4
 set shiftwidth=4
+
+" Folding options
+set foldmethod=indent
+set foldnestmax=10
+set nofoldenable  " Don't fold by default.
+set foldlevel=1
 
 " Colorizes Twig template as HTML
 au BufRead,BufNewFile *.twig set syntax=htmljinja
@@ -66,9 +74,6 @@ set vb t_vb=
 
 " Using tags file
 set tags+=.ctags
-
-" Code templating
-autocmd BufNewFile * silent! 0r ~/.vim/skel/%:e.tpl
 
 " Syntax coloration of Twig files
 au BufRead,BufNewFile *.twig setfiletype htmldjango

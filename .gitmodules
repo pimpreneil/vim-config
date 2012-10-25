@@ -1,0 +1,6 @@
+[submodule "plugins/matrix"]
+	path = plugins/matrix
+	url = git://github.com/uguu-org/vim-matrix-screensaver.git
+[submodule ".vim/plugin/matrix"]
+	path = .vim/plugin/matrix
+	url = git://github.com/uguu-org/vim-matrix-screensaver.git
