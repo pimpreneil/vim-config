@@ -21,9 +21,6 @@ set foldnestmax=10
 set nofoldenable  " Don't fold by default.
 set foldlevel=1
 
-" Colorizes Twig template as HTML
-au BufRead,BufNewFile *.twig set syntax=htmljinja
-
 " This line should not be removed as it ensures that various options are
 " properly set to work with the Vim-related packages available in Debian.
 " Adds automatically 'set nocompatible' option.
@@ -75,5 +72,4 @@ set vb t_vb=
 " Using tags file
 set tags+=.ctags
 
-" Syntax coloration of Twig files
-au BufRead,BufNewFile *.twig setfiletype htmldjango
+call pathogen#infect()
