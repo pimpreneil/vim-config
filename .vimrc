@@ -73,3 +73,4 @@ set vb t_vb=
 set tags+=.ctags
 
 call pathogen#infect()
+call pathogen#runtime_append_all_bundles()
